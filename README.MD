@@ -5,6 +5,7 @@ Requires an external shell script to operate in the following manner:
 ```bash
 username=[your_username]
 password=[your_password]
+hostname=[your domain]
 currentIP=$(sh getIP.sh)
 
 python DNSupdate.py $username $password $currentIP
